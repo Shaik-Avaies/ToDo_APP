@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true,
   "author": "Shaik Avaies",
   "license": "ISC",
   "dependencies": {
@@ -14,9 +13,5 @@
     "express": "^4.17.1",
     "heroku": "^7.41.1",
     "mongoose": "^5.9.14"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Shaik-Avaies/ToDo_APP.git"
   }
 }
