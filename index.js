@@ -1,10 +1,15 @@
 const express = require('express');
+
 const port = 8000;
 
 app = express();
 
 //setting up routers
 app.use('/',require('./routes'));
+//setting up assets
+app.use(express.static('assets'));
+
+
 
 //set up views
 app.set('view engine','ejs');
