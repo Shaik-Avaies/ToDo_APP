@@ -1,6 +1,6 @@
 //require the library
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/ToDo');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/ToDo');
 
 //acquire the connection (to check if it is successfull)
 var db = mongoose.connection;
