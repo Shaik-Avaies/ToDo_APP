@@ -2,7 +2,7 @@ const express = require('express');
 
 
 //step1
-const port = process.env.PORT || 8000;
+const port = 8000;
 
 
 app = express();
@@ -11,7 +11,6 @@ app = express();
 app.use('/',require('./routes'));
 //setting up assets
 app.use(express.static('assets'));
-
 
 
 //set up views
